@@ -289,12 +289,15 @@ card-wrapper::before {
 /*FOOTER*/
 
 .footer {
-    height: 100px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #1d2222;
+    background-color: rgba(21, 21, 21, 0.84);
+    color: white;
+    font-size: 0.8m;
+    padding: 5px;
+    text-align: center;
+}
+
+.footer:hover {
+    text-decoration: underline;
 }
 
 /* RESPONSIVO */
